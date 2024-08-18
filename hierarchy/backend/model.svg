@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1065pt" height="778pt" viewBox="0.00 0.00 1065.20 777.60">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 773.6)">
+<title>classes_backend</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-773.6 1061.1992,-773.6 1061.1992,4 -4,4"/>
+<!-- backend.model.repositories.BaseRepository -->
+<g id="node1" class="node">
+<title>backend.model.repositories.BaseRepository</title>
+<polygon fill="none" stroke="#000000" points="402.4105,-.5 402.4105,-142.1 760.1239,-142.1 760.1239,-.5 402.4105,-.5"/>
+<text text-anchor="start" x="536.9432" y="-125.5" font-family="Times,serif" font-size="14.00" fill="#000000">BaseRepository</text>
+<polyline fill="none" stroke="#000000" points="402.4105,-117.3 760.1239,-117.3 "/>
+<text text-anchor="start" x="505.8464" y="-100.7" font-family="Times,serif" font-size="14.00" fill="#000000">model : Optional[Type[T]]</text>
+<polyline fill="none" stroke="#000000" points="402.4105,-92.5 760.1239,-92.5 "/>
+<text text-anchor="start" x="410.4105" y="-75.9" font-family="Times,serif" font-size="14.00" fill="#000000">create(kwargs: dict[str, Any]): T</text>
+<text text-anchor="start" x="410.4105" y="-59.1" font-family="Times,serif" font-size="14.00" fill="#000000">get(ID: PrimaryKey): Optional[T]</text>
+<text text-anchor="start" x="410.4105" y="-42.3" font-family="Times,serif" font-size="14.00" fill="#000000">query_list(kwargs: dict[str, Any]): list[T]</text>
+<text text-anchor="start" x="410.4105" y="-25.5" font-family="Times,serif" font-size="14.00" fill="#000000">query_one(kwargs: dict[str, Any]): Optional[T]</text>
+<text text-anchor="start" x="410.4105" y="-8.7" font-family="Times,serif" font-size="14.00" fill="#000000">update(ID: PrimaryKey, kwargs: dict[str, Any]): Optional[T]</text>
+</g>
+<!-- backend.model.models.DocumentFlow -->
+<g id="node2" class="node">
+<title>backend.model.models.DocumentFlow</title>
+<polygon fill="none" stroke="#000000" points="25.6879,-476.3 25.6879,-601.1 138.8465,-601.1 138.8465,-476.3 25.6879,-476.3"/>
+<text text-anchor="start" x="38.7188" y="-584.5" font-family="Times,serif" font-size="14.00" fill="#000000">DocumentFlow</text>
+<polyline fill="none" stroke="#000000" points="25.6879,-576.3 138.8465,-576.3 "/>
+<text text-anchor="start" x="33.6879" y="-559.7" font-family="Times,serif" font-size="14.00" fill="#000000">documentID</text>
+<text text-anchor="start" x="33.6879" y="-542.9" font-family="Times,serif" font-size="14.00" fill="#000000">goodsReceiptID</text>
+<text text-anchor="start" x="33.6879" y="-526.1" font-family="Times,serif" font-size="14.00" fill="#000000">purchaseOrderID</text>
+<text text-anchor="start" x="33.6879" y="-509.3" font-family="Times,serif" font-size="14.00" fill="#000000">userID</text>
+<polyline fill="none" stroke="#000000" points="25.6879,-501.1 138.8465,-501.1 "/>
+<text text-anchor="start" x="80.5172" y="-484.5" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- backend.model.repositories.DocumentFlowRepository -->
+<g id="node3" class="node">
+<title>backend.model.repositories.DocumentFlowRepository</title>
+<polygon fill="none" stroke="#000000" points="0,-180.1 0,-254.5 164.5344,-254.5 164.5344,-180.1 0,-180.1"/>
+<text text-anchor="start" x="8" y="-237.9" font-family="Times,serif" font-size="14.00" fill="#000000">DocumentFlowRepository</text>
+<polyline fill="none" stroke="#000000" points="0,-229.7 164.5344,-229.7 "/>
+<text text-anchor="start" x="64.7693" y="-213.1" font-family="Times,serif" font-size="14.00" fill="#000000">model</text>
+<polyline fill="none" stroke="#000000" points="0,-204.9 164.5344,-204.9 "/>
+<text text-anchor="start" x="80.5172" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- backend.model.models.DocumentFlow&#45;&gt;backend.model.repositories.DocumentFlowRepository -->
+<g id="edge8" class="edge">
+<title>backend.model.models.DocumentFlow-&gt;backend.model.repositories.DocumentFlowRepository</title>
+<path fill="none" stroke="#000000" d="M82.2672,-475.9679C82.2672,-414.8264 82.2672,-323.0893 82.2672,-266.8826"/>
+<polygon fill="#000000" stroke="#000000" points="82.2673,-266.7681 78.2672,-260.7681 82.2672,-254.7681 86.2672,-260.7681 82.2673,-266.7681"/>
+<text text-anchor="middle" x="99.7651" y="-277.2" font-family="Times,serif" font-size="14.00" fill="#00ff00">model</text>
+</g>
+<!-- backend.model.repositories.DocumentFlowRepository&#45;&gt;backend.model.repositories.BaseRepository -->
+<g id="edge1" class="edge">
+<title>backend.model.repositories.DocumentFlowRepository-&gt;backend.model.repositories.BaseRepository</title>
+<path fill="none" stroke="#000000" d="M164.5788,-182.9706C167.8388,-181.8015 171.0769,-180.6731 174.2672,-179.6 244.6763,-155.9159 323.3021,-133.9732 392.5335,-116.1201"/>
+<polygon fill="none" stroke="#000000" points="393.4228,-119.5054 402.2382,-113.6283 391.6819,-112.7253 393.4228,-119.5054"/>
+</g>
+<!-- backend.model.models.GoodsReceipt -->
+<g id="node4" class="node">
+<title>backend.model.models.GoodsReceipt</title>
+<polygon fill="none" stroke="#000000" points="204.6879,-400.7 204.6879,-676.7 317.8465,-676.7 317.8465,-400.7 204.6879,-400.7"/>
+<text text-anchor="start" x="221.6108" y="-660.1" font-family="Times,serif" font-size="14.00" fill="#000000">GoodsReceipt</text>
+<polyline fill="none" stroke="#000000" points="204.6879,-651.9 317.8465,-651.9 "/>
+<text text-anchor="start" x="212.6879" y="-635.3" font-family="Times,serif" font-size="14.00" fill="#000000">batch</text>
+<text text-anchor="start" x="212.6879" y="-618.5" font-family="Times,serif" font-size="14.00" fill="#000000">documentDate</text>
+<text text-anchor="start" x="212.6879" y="-601.7" font-family="Times,serif" font-size="14.00" fill="#000000">goodsReceiptID</text>
+<text text-anchor="start" x="212.6879" y="-584.9" font-family="Times,serif" font-size="14.00" fill="#000000">materialID</text>
+<text text-anchor="start" x="212.6879" y="-568.1" font-family="Times,serif" font-size="14.00" fill="#000000">movementType</text>
+<text text-anchor="start" x="212.6879" y="-551.3" font-family="Times,serif" font-size="14.00" fill="#000000">plant</text>
+<text text-anchor="start" x="212.6879" y="-534.5" font-family="Times,serif" font-size="14.00" fill="#000000">postingDate</text>
+<text text-anchor="start" x="212.6879" y="-517.7" font-family="Times,serif" font-size="14.00" fill="#000000">purchaseOrderID</text>
+<text text-anchor="start" x="212.6879" y="-500.9" font-family="Times,serif" font-size="14.00" fill="#000000">quantity</text>
+<text text-anchor="start" x="212.6879" y="-484.1" font-family="Times,serif" font-size="14.00" fill="#000000">receiptDate</text>
+<text text-anchor="start" x="212.6879" y="-467.3" font-family="Times,serif" font-size="14.00" fill="#000000">stockLocation</text>
+<text text-anchor="start" x="212.6879" y="-450.5" font-family="Times,serif" font-size="14.00" fill="#000000">supplierID</text>
+<text text-anchor="start" x="212.6879" y="-433.7" font-family="Times,serif" font-size="14.00" fill="#000000">userID</text>
+<polyline fill="none" stroke="#000000" points="204.6879,-425.5 317.8465,-425.5 "/>
+<text text-anchor="start" x="259.5172" y="-408.9" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- backend.model.repositories.GoodsReceiptRepository -->
+<g id="node5" class="node">
+<title>backend.model.repositories.GoodsReceiptRepository</title>
+<polygon fill="none" stroke="#000000" points="182.892,-180.1 182.892,-254.5 339.6424,-254.5 339.6424,-180.1 182.892,-180.1"/>
+<text text-anchor="start" x="190.892" y="-237.9" font-family="Times,serif" font-size="14.00" fill="#000000">GoodsReceiptRepository</text>
+<polyline fill="none" stroke="#000000" points="182.892,-229.7 339.6424,-229.7 "/>
+<text text-anchor="start" x="243.7693" y="-213.1" font-family="Times,serif" font-size="14.00" fill="#000000">model</text>
+<polyline fill="none" stroke="#000000" points="182.892,-204.9 339.6424,-204.9 "/>
+<text text-anchor="start" x="259.5172" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- backend.model.models.GoodsReceipt&#45;&gt;backend.model.repositories.GoodsReceiptRepository -->
+<g id="edge9" class="edge">
+<title>backend.model.models.GoodsReceipt-&gt;backend.model.repositories.GoodsReceiptRepository</title>
+<path fill="none" stroke="#000000" d="M261.2672,-400.5322C261.2672,-352.8957 261.2672,-302.5644 261.2672,-266.7311"/>
+<polygon fill="#000000" stroke="#000000" points="261.2673,-266.6893 257.2672,-260.6893 261.2672,-254.6893 265.2672,-260.6892 261.2673,-266.6893"/>
+<text text-anchor="middle" x="278.7651" y="-277.2" font-family="Times,serif" font-size="14.00" fill="#00ff00">model</text>
+</g>
+<!-- backend.model.repositories.GoodsReceiptRepository&#45;&gt;backend.model.repositories.BaseRepository -->
+<g id="edge2" class="edge">
+<title>backend.model.repositories.GoodsReceiptRepository-&gt;backend.model.repositories.BaseRepository</title>
+<path fill="none" stroke="#000000" d="M339.9579,-181.3974C363.2988,-170.7481 389.7841,-158.6642 416.4479,-146.4988"/>
+<polygon fill="none" stroke="#000000" points="418.2368,-149.5298 425.8818,-142.1946 415.3312,-143.1613 418.2368,-149.5298"/>
+</g>
+<!-- backend.model.models.Material -->
+<g id="node6" class="node">
+<title>backend.model.models.Material</title>
+<polygon fill="none" stroke="#000000" points="339.8443,-308.3 339.8443,-769.1 478.6901,-769.1 478.6901,-308.3 339.8443,-308.3"/>
+<text text-anchor="start" x="385.5568" y="-752.5" font-family="Times,serif" font-size="14.00" fill="#000000">Material</text>
+<polyline fill="none" stroke="#000000" points="339.8443,-744.3 478.6901,-744.3 "/>
+<text text-anchor="start" x="347.8443" y="-727.7" font-family="Times,serif" font-size="14.00" fill="#000000">availabilityCheck</text>
+<text text-anchor="start" x="347.8443" y="-710.9" font-family="Times,serif" font-size="14.00" fill="#000000">baseUnit</text>
+<text text-anchor="start" x="347.8443" y="-694.1" font-family="Times,serif" font-size="14.00" fill="#000000">description</text>
+<text text-anchor="start" x="347.8443" y="-677.3" font-family="Times,serif" font-size="14.00" fill="#000000">division</text>
+<text text-anchor="start" x="347.8443" y="-660.5" font-family="Times,serif" font-size="14.00" fill="#000000">grossWeight</text>
+<text text-anchor="start" x="347.8443" y="-643.7" font-family="Times,serif" font-size="14.00" fill="#000000">loadingGroup</text>
+<text text-anchor="start" x="347.8443" y="-626.9" font-family="Times,serif" font-size="14.00" fill="#000000">lotSize</text>
+<text text-anchor="start" x="347.8443" y="-610.1" font-family="Times,serif" font-size="14.00" fill="#000000">materialGroup</text>
+<text text-anchor="start" x="347.8443" y="-593.3" font-family="Times,serif" font-size="14.00" fill="#000000">materialID</text>
+<text text-anchor="start" x="347.8443" y="-576.5" font-family="Times,serif" font-size="14.00" fill="#000000">materialName</text>
+<text text-anchor="start" x="347.8443" y="-559.7" font-family="Times,serif" font-size="14.00" fill="#000000">minimumLotSize</text>
+<text text-anchor="start" x="347.8443" y="-542.9" font-family="Times,serif" font-size="14.00" fill="#000000">movingPrice</text>
+<text text-anchor="start" x="347.8443" y="-526.1" font-family="Times,serif" font-size="14.00" fill="#000000">mrpController</text>
+<text text-anchor="start" x="347.8443" y="-509.3" font-family="Times,serif" font-size="14.00" fill="#000000">mrpType</text>
+<text text-anchor="start" x="347.8443" y="-492.5" font-family="Times,serif" font-size="14.00" fill="#000000">nettWeight</text>
+<text text-anchor="start" x="347.8443" y="-475.7" font-family="Times,serif" font-size="14.00" fill="#000000">packMaterial</text>
+<text text-anchor="start" x="347.8443" y="-458.9" font-family="Times,serif" font-size="14.00" fill="#000000">plannedDeliveryTime</text>
+<text text-anchor="start" x="347.8443" y="-442.1" font-family="Times,serif" font-size="14.00" fill="#000000">priceUnit</text>
+<text text-anchor="start" x="347.8443" y="-425.3" font-family="Times,serif" font-size="14.00" fill="#000000">standardPrice</text>
+<text text-anchor="start" x="347.8443" y="-408.5" font-family="Times,serif" font-size="14.00" fill="#000000">transportationGroup</text>
+<text text-anchor="start" x="347.8443" y="-391.7" font-family="Times,serif" font-size="14.00" fill="#000000">userID</text>
+<text text-anchor="start" x="347.8443" y="-374.9" font-family="Times,serif" font-size="14.00" fill="#000000">volume</text>
+<text text-anchor="start" x="347.8443" y="-358.1" font-family="Times,serif" font-size="14.00" fill="#000000">volumeUnit</text>
+<text text-anchor="start" x="347.8443" y="-341.3" font-family="Times,serif" font-size="14.00" fill="#000000">weightUnit</text>
+<polyline fill="none" stroke="#000000" points="339.8443,-333.1 478.6901,-333.1 "/>
+<text text-anchor="start" x="407.5172" y="-316.5" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- backend.model.repositories.MaterialRepository -->
+<g id="node7" class="node">
+<title>backend.model.repositories.MaterialRepository</title>
+<polygon fill="none" stroke="#000000" points="357.838,-180.1 357.838,-254.5 482.6964,-254.5 482.6964,-180.1 357.838,-180.1"/>
+<text text-anchor="start" x="365.838" y="-237.9" font-family="Times,serif" font-size="14.00" fill="#000000">MaterialRepository</text>
+<polyline fill="none" stroke="#000000" points="357.838,-229.7 482.6964,-229.7 "/>
+<text text-anchor="start" x="402.7693" y="-213.1" font-family="Times,serif" font-size="14.00" fill="#000000">model</text>
+<polyline fill="none" stroke="#000000" points="357.838,-204.9 482.6964,-204.9 "/>
+<text text-anchor="start" x="418.5172" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- backend.model.models.Material&#45;&gt;backend.model.repositories.MaterialRepository -->
+<g id="edge10" class="edge">
+<title>backend.model.models.Material-&gt;backend.model.repositories.MaterialRepository</title>
+<path fill="none" stroke="#000000" d="M417.1591,-308.1116C417.6733,-293.0877 418.1529,-279.076 418.574,-266.7719"/>
+<polygon fill="#000000" stroke="#000000" points="418.5801,-266.5899 414.7878,-260.4566 418.9907,-254.597 422.7831,-260.7303 418.5801,-266.5899"/>
+<text text-anchor="middle" x="435.7651" y="-277.2" font-family="Times,serif" font-size="14.00" fill="#00ff00">model</text>
+</g>
+<!-- backend.model.repositories.MaterialRepository&#45;&gt;backend.model.repositories.BaseRepository -->
+<g id="edge3" class="edge">
+<title>backend.model.repositories.MaterialRepository-&gt;backend.model.repositories.BaseRepository</title>
+<path fill="none" stroke="#000000" d="M461.3109,-180.0803C471.8807,-170.4952 483.6562,-159.8168 495.5841,-149.0002"/>
+<polygon fill="none" stroke="#000000" points="497.9646,-151.5663 503.0212,-142.256 493.2623,-146.3809 497.9646,-151.5663"/>
+</g>
+<!-- backend.model.models.PurchaseOrder -->
+<g id="node8" class="node">
+<title>backend.model.models.PurchaseOrder</title>
+<polygon fill="none" stroke="#000000" points="497.0133,-400.7 497.0133,-676.7 647.5211,-676.7 647.5211,-400.7 497.0133,-400.7"/>
+<text text-anchor="start" x="530.6802" y="-660.1" font-family="Times,serif" font-size="14.00" fill="#000000">PurchaseOrder</text>
+<polyline fill="none" stroke="#000000" points="497.0133,-651.9 647.5211,-651.9 "/>
+<text text-anchor="start" x="505.0133" y="-635.3" font-family="Times,serif" font-size="14.00" fill="#000000">currency</text>
+<text text-anchor="start" x="505.0133" y="-618.5" font-family="Times,serif" font-size="14.00" fill="#000000">deliveryDate</text>
+<text text-anchor="start" x="505.0133" y="-601.7" font-family="Times,serif" font-size="14.00" fill="#000000">netPrice</text>
+<text text-anchor="start" x="505.0133" y="-584.9" font-family="Times,serif" font-size="14.00" fill="#000000">orderDate</text>
+<text text-anchor="start" x="505.0133" y="-568.1" font-family="Times,serif" font-size="14.00" fill="#000000">paymentTerms</text>
+<text text-anchor="start" x="505.0133" y="-551.3" font-family="Times,serif" font-size="14.00" fill="#000000">plant</text>
+<text text-anchor="start" x="505.0133" y="-534.5" font-family="Times,serif" font-size="14.00" fill="#000000">purchaseOrderID</text>
+<text text-anchor="start" x="505.0133" y="-517.7" font-family="Times,serif" font-size="14.00" fill="#000000">purchasingGroup</text>
+<text text-anchor="start" x="505.0133" y="-500.9" font-family="Times,serif" font-size="14.00" fill="#000000">purchasingOrganization</text>
+<text text-anchor="start" x="505.0133" y="-484.1" font-family="Times,serif" font-size="14.00" fill="#000000">quantity</text>
+<text text-anchor="start" x="505.0133" y="-467.3" font-family="Times,serif" font-size="14.00" fill="#000000">stockID</text>
+<text text-anchor="start" x="505.0133" y="-450.5" font-family="Times,serif" font-size="14.00" fill="#000000">supplierID</text>
+<text text-anchor="start" x="505.0133" y="-433.7" font-family="Times,serif" font-size="14.00" fill="#000000">userID</text>
+<polyline fill="none" stroke="#000000" points="497.0133,-425.5 647.5211,-425.5 "/>
+<text text-anchor="start" x="570.5172" y="-408.9" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- backend.model.repositories.PurchaseOrderRepository -->
+<g id="node9" class="node">
+<title>backend.model.repositories.PurchaseOrderRepository</title>
+<polygon fill="none" stroke="#000000" points="500.9614,-180.1 500.9614,-254.5 661.573,-254.5 661.573,-180.1 500.9614,-180.1"/>
+<text text-anchor="start" x="508.9614" y="-237.9" font-family="Times,serif" font-size="14.00" fill="#000000">PurchaseOrderRepository</text>
+<polyline fill="none" stroke="#000000" points="500.9614,-229.7 661.573,-229.7 "/>
+<text text-anchor="start" x="563.7693" y="-213.1" font-family="Times,serif" font-size="14.00" fill="#000000">model</text>
+<polyline fill="none" stroke="#000000" points="500.9614,-204.9 661.573,-204.9 "/>
+<text text-anchor="start" x="579.5172" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- backend.model.models.PurchaseOrder&#45;&gt;backend.model.repositories.PurchaseOrderRepository -->
+<g id="edge11" class="edge">
+<title>backend.model.models.PurchaseOrder-&gt;backend.model.repositories.PurchaseOrderRepository</title>
+<path fill="none" stroke="#000000" d="M576.1362,-400.5322C577.4702,-352.8957 578.8796,-302.5644 579.883,-266.7311"/>
+<polygon fill="#000000" stroke="#000000" points="579.8842,-266.6846 576.0538,-260.5749 580.2202,-254.6893 584.0506,-260.7989 579.8842,-266.6846"/>
+<text text-anchor="middle" x="597.7651" y="-277.2" font-family="Times,serif" font-size="14.00" fill="#00ff00">model</text>
+</g>
+<!-- backend.model.repositories.PurchaseOrderRepository&#45;&gt;backend.model.repositories.BaseRepository -->
+<g id="edge4" class="edge">
+<title>backend.model.repositories.PurchaseOrderRepository-&gt;backend.model.repositories.BaseRepository</title>
+<path fill="none" stroke="#000000" d="M581.2672,-180.0803C581.2672,-171.4899 581.2672,-162.0213 581.2672,-152.3621"/>
+<polygon fill="none" stroke="#000000" points="584.7673,-152.2559 581.2672,-142.256 577.7673,-152.256 584.7673,-152.2559"/>
+</g>
+<!-- backend.model.models.Stock -->
+<g id="node10" class="node">
+<title>backend.model.models.Stock</title>
+<polygon fill="none" stroke="#000000" points="665.6227,-409.1 665.6227,-668.3 802.9117,-668.3 802.9117,-409.1 665.6227,-409.1"/>
+<text text-anchor="start" x="718.3233" y="-651.7" font-family="Times,serif" font-size="14.00" fill="#000000">Stock</text>
+<polyline fill="none" stroke="#000000" points="665.6227,-643.5 802.9117,-643.5 "/>
+<text text-anchor="start" x="673.6227" y="-626.9" font-family="Times,serif" font-size="14.00" fill="#000000">batch</text>
+<text text-anchor="start" x="673.6227" y="-610.1" font-family="Times,serif" font-size="14.00" fill="#000000">companyCode</text>
+<text text-anchor="start" x="673.6227" y="-593.3" font-family="Times,serif" font-size="14.00" fill="#000000">materialID</text>
+<text text-anchor="start" x="673.6227" y="-576.5" font-family="Times,serif" font-size="14.00" fill="#000000">plant</text>
+<text text-anchor="start" x="673.6227" y="-559.7" font-family="Times,serif" font-size="14.00" fill="#000000">quantity</text>
+<text text-anchor="start" x="673.6227" y="-542.9" font-family="Times,serif" font-size="14.00" fill="#000000">specialStockIndicator</text>
+<text text-anchor="start" x="673.6227" y="-526.1" font-family="Times,serif" font-size="14.00" fill="#000000">stockID</text>
+<text text-anchor="start" x="673.6227" y="-509.3" font-family="Times,serif" font-size="14.00" fill="#000000">stockType</text>
+<text text-anchor="start" x="673.6227" y="-492.5" font-family="Times,serif" font-size="14.00" fill="#000000">storageLocation</text>
+<text text-anchor="start" x="673.6227" y="-475.7" font-family="Times,serif" font-size="14.00" fill="#000000">unitOfMeasure</text>
+<text text-anchor="start" x="673.6227" y="-458.9" font-family="Times,serif" font-size="14.00" fill="#000000">userID</text>
+<text text-anchor="start" x="673.6227" y="-442.1" font-family="Times,serif" font-size="14.00" fill="#000000">valuationType</text>
+<polyline fill="none" stroke="#000000" points="665.6227,-433.9 802.9117,-433.9 "/>
+<text text-anchor="start" x="732.5172" y="-417.3" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- backend.model.repositories.StockRepository -->
+<g id="node11" class="node">
+<title>backend.model.repositories.StockRepository</title>
+<polygon fill="none" stroke="#000000" points="679.6045,-180.1 679.6045,-254.5 788.9299,-254.5 788.9299,-180.1 679.6045,-180.1"/>
+<text text-anchor="start" x="687.6045" y="-237.9" font-family="Times,serif" font-size="14.00" fill="#000000">StockRepository</text>
+<polyline fill="none" stroke="#000000" points="679.6045,-229.7 788.9299,-229.7 "/>
+<text text-anchor="start" x="716.7693" y="-213.1" font-family="Times,serif" font-size="14.00" fill="#000000">model</text>
+<polyline fill="none" stroke="#000000" points="679.6045,-204.9 788.9299,-204.9 "/>
+<text text-anchor="start" x="732.5172" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- backend.model.models.Stock&#45;&gt;backend.model.repositories.StockRepository -->
+<g id="edge12" class="edge">
+<title>backend.model.models.Stock-&gt;backend.model.repositories.StockRepository</title>
+<path fill="none" stroke="#000000" d="M734.2672,-408.9007C734.2672,-358.9692 734.2672,-304.9015 734.2672,-266.9739"/>
+<polygon fill="#000000" stroke="#000000" points="734.2673,-266.7595 730.2672,-260.7595 734.2672,-254.7595 738.2672,-260.7594 734.2673,-266.7595"/>
+<text text-anchor="middle" x="751.7651" y="-277.2" font-family="Times,serif" font-size="14.00" fill="#00ff00">model</text>
+</g>
+<!-- backend.model.repositories.StockRepository&#45;&gt;backend.model.repositories.BaseRepository -->
+<g id="edge5" class="edge">
+<title>backend.model.repositories.StockRepository-&gt;backend.model.repositories.BaseRepository</title>
+<path fill="none" stroke="#000000" d="M695.263,-180.0803C685.3131,-170.5856 674.239,-160.0182 663.0135,-149.3063"/>
+<polygon fill="none" stroke="#000000" points="665.2761,-146.6275 655.6252,-142.256 660.4435,-151.6918 665.2761,-146.6275"/>
+</g>
+<!-- backend.model.models.Supplier -->
+<g id="node12" class="node">
+<title>backend.model.models.Supplier</title>
+<polygon fill="none" stroke="#000000" points="821.3352,-341.9 821.3352,-735.5 953.1992,-735.5 953.1992,-341.9 821.3352,-341.9"/>
+<text text-anchor="start" x="863.5477" y="-718.9" font-family="Times,serif" font-size="14.00" fill="#000000">Supplier</text>
+<polyline fill="none" stroke="#000000" points="821.3352,-710.7 953.1992,-710.7 "/>
+<text text-anchor="start" x="829.3352" y="-694.1" font-family="Times,serif" font-size="14.00" fill="#000000">address</text>
+<text text-anchor="start" x="829.3352" y="-677.3" font-family="Times,serif" font-size="14.00" fill="#000000">checkDoubleVoice</text>
+<text text-anchor="start" x="829.3352" y="-660.5" font-family="Times,serif" font-size="14.00" fill="#000000">city</text>
+<text text-anchor="start" x="829.3352" y="-643.7" font-family="Times,serif" font-size="14.00" fill="#000000">clerkName</text>
+<text text-anchor="start" x="829.3352" y="-626.9" font-family="Times,serif" font-size="14.00" fill="#000000">communicationLang</text>
+<text text-anchor="start" x="829.3352" y="-610.1" font-family="Times,serif" font-size="14.00" fill="#000000">companyCode</text>
+<text text-anchor="start" x="829.3352" y="-593.3" font-family="Times,serif" font-size="14.00" fill="#000000">contactInfo</text>
+<text text-anchor="start" x="829.3352" y="-576.5" font-family="Times,serif" font-size="14.00" fill="#000000">country</text>
+<text text-anchor="start" x="829.3352" y="-559.7" font-family="Times,serif" font-size="14.00" fill="#000000">orderCurrency</text>
+<text text-anchor="start" x="829.3352" y="-542.9" font-family="Times,serif" font-size="14.00" fill="#000000">partnerFunctions</text>
+<text text-anchor="start" x="829.3352" y="-526.1" font-family="Times,serif" font-size="14.00" fill="#000000">paymentTerms</text>
+<text text-anchor="start" x="829.3352" y="-509.3" font-family="Times,serif" font-size="14.00" fill="#000000">postalCode</text>
+<text text-anchor="start" x="829.3352" y="-492.5" font-family="Times,serif" font-size="14.00" fill="#000000">purchasingOrg</text>
+<text text-anchor="start" x="829.3352" y="-475.7" font-family="Times,serif" font-size="14.00" fill="#000000">reconciliationAcct</text>
+<text text-anchor="start" x="829.3352" y="-458.9" font-family="Times,serif" font-size="14.00" fill="#000000">region</text>
+<text text-anchor="start" x="829.3352" y="-442.1" font-family="Times,serif" font-size="14.00" fill="#000000">streetAddress</text>
+<text text-anchor="start" x="829.3352" y="-425.3" font-family="Times,serif" font-size="14.00" fill="#000000">supplierID</text>
+<text text-anchor="start" x="829.3352" y="-408.5" font-family="Times,serif" font-size="14.00" fill="#000000">supplierName</text>
+<text text-anchor="start" x="829.3352" y="-391.7" font-family="Times,serif" font-size="14.00" fill="#000000">taxNumber</text>
+<text text-anchor="start" x="829.3352" y="-374.9" font-family="Times,serif" font-size="14.00" fill="#000000">userID</text>
+<polyline fill="none" stroke="#000000" points="821.3352,-366.7 953.1992,-366.7 "/>
+<text text-anchor="start" x="885.5172" y="-350.1" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- backend.model.repositories.SupplierRepository -->
+<g id="node13" class="node">
+<title>backend.model.repositories.SupplierRepository</title>
+<polygon fill="none" stroke="#000000" points="808.8289,-180.1 808.8289,-254.5 933.7055,-254.5 933.7055,-180.1 808.8289,-180.1"/>
+<text text-anchor="start" x="816.8289" y="-237.9" font-family="Times,serif" font-size="14.00" fill="#000000">SupplierRepository</text>
+<polyline fill="none" stroke="#000000" points="808.8289,-229.7 933.7055,-229.7 "/>
+<text text-anchor="start" x="853.7693" y="-213.1" font-family="Times,serif" font-size="14.00" fill="#000000">model</text>
+<polyline fill="none" stroke="#000000" points="808.8289,-204.9 933.7055,-204.9 "/>
+<text text-anchor="start" x="869.5172" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- backend.model.models.Supplier&#45;&gt;backend.model.repositories.SupplierRepository -->
+<g id="edge13" class="edge">
+<title>backend.model.models.Supplier-&gt;backend.model.repositories.SupplierRepository</title>
+<path fill="none" stroke="#000000" d="M877.4532,-341.5616C876.0808,-313.9929 874.7835,-287.9344 873.7348,-266.8687"/>
+<polygon fill="#000000" stroke="#000000" points="873.7283,-266.7348 869.4348,-260.9411 873.1315,-254.7496 877.4249,-260.5433 873.7283,-266.7348"/>
+<text text-anchor="middle" x="892.7651" y="-277.2" font-family="Times,serif" font-size="14.00" fill="#00ff00">model</text>
+</g>
+<!-- backend.model.repositories.SupplierRepository&#45;&gt;backend.model.repositories.BaseRepository -->
+<g id="edge6" class="edge">
+<title>backend.model.repositories.SupplierRepository-&gt;backend.model.repositories.BaseRepository</title>
+<path fill="none" stroke="#000000" d="M808.7755,-184.9551C805.2228,-183.1386 801.7012,-181.3435 798.2672,-179.6 777.2318,-168.9197 755.0093,-157.7267 733.1271,-146.7569"/>
+<polygon fill="none" stroke="#000000" points="734.6143,-143.5874 724.1058,-142.2374 731.4788,-149.8459 734.6143,-143.5874"/>
+</g>
+<!-- backend.model.models.User -->
+<g id="node14" class="node">
+<title>backend.model.models.User</title>
+<polygon fill="none" stroke="#000000" points="971.4474,-476.3 971.4474,-601.1 1041.087,-601.1 1041.087,-476.3 971.4474,-476.3"/>
+<text text-anchor="start" x="993.054" y="-584.5" font-family="Times,serif" font-size="14.00" fill="#000000">User</text>
+<polyline fill="none" stroke="#000000" points="971.4474,-576.3 1041.087,-576.3 "/>
+<text text-anchor="start" x="979.4474" y="-559.7" font-family="Times,serif" font-size="14.00" fill="#000000">password</text>
+<text text-anchor="start" x="979.4474" y="-542.9" font-family="Times,serif" font-size="14.00" fill="#000000">role</text>
+<text text-anchor="start" x="979.4474" y="-526.1" font-family="Times,serif" font-size="14.00" fill="#000000">userID</text>
+<text text-anchor="start" x="979.4474" y="-509.3" font-family="Times,serif" font-size="14.00" fill="#000000">username</text>
+<polyline fill="none" stroke="#000000" points="971.4474,-501.1 1041.087,-501.1 "/>
+<text text-anchor="start" x="1004.5172" y="-484.5" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- backend.model.repositories.UserRepository -->
+<g id="node15" class="node">
+<title>backend.model.repositories.UserRepository</title>
+<polygon fill="none" stroke="#000000" points="953.3352,-180.1 953.3352,-254.5 1057.1992,-254.5 1057.1992,-180.1 953.3352,-180.1"/>
+<text text-anchor="start" x="961.3352" y="-237.9" font-family="Times,serif" font-size="14.00" fill="#000000">UserRepository</text>
+<polyline fill="none" stroke="#000000" points="953.3352,-229.7 1057.1992,-229.7 "/>
+<text text-anchor="start" x="987.7693" y="-213.1" font-family="Times,serif" font-size="14.00" fill="#000000">model</text>
+<polyline fill="none" stroke="#000000" points="953.3352,-204.9 1057.1992,-204.9 "/>
+<text text-anchor="start" x="1003.5172" y="-188.3" font-family="Times,serif" font-size="14.00" fill="#000000"> </text>
+</g>
+<!-- backend.model.models.User&#45;&gt;backend.model.repositories.UserRepository -->
+<g id="edge14" class="edge">
+<title>backend.model.models.User-&gt;backend.model.repositories.UserRepository</title>
+<path fill="none" stroke="#000000" d="M1006.072,-475.9679C1005.8818,-414.8264 1005.5964,-323.0893 1005.4215,-266.8826"/>
+<polygon fill="#000000" stroke="#000000" points="1005.4212,-266.768 1001.4025,-260.7805 1005.3838,-254.7681 1009.4025,-260.7556 1005.4212,-266.768"/>
+<text text-anchor="middle" x="1022.7651" y="-277.2" font-family="Times,serif" font-size="14.00" fill="#00ff00">model</text>
+</g>
+<!-- backend.model.repositories.UserRepository&#45;&gt;backend.model.repositories.BaseRepository -->
+<g id="edge7" class="edge">
+<title>backend.model.repositories.UserRepository-&gt;backend.model.repositories.BaseRepository</title>
+<path fill="none" stroke="#000000" d="M953.1933,-184.8195C949.5462,-182.9555 945.8826,-181.1944 942.2672,-179.6 887.794,-155.5767 826.4405,-134.9494 769.9785,-118.3388"/>
+<polygon fill="none" stroke="#000000" points="770.8107,-114.9358 760.2307,-115.4964 768.8511,-121.6559 770.8107,-114.9358"/>
+</g>
+</g>
+</svg>

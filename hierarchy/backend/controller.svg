@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1109pt" height="413pt" viewBox="0.00 0.00 1108.57 413.20">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 409.2)">
+<title>classes_backend</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-409.2 1104.5706,-409.2 1104.5706,4 -4,4"/>
+<!-- backend.api.apis.Controller -->
+<g id="node1" class="node">
+<title>backend.api.apis.Controller</title>
+<polygon fill="none" stroke="#000000" points="171.61,-212.7 171.61,-404.7 511.031,-404.7 511.031,-212.7 171.61,-212.7"/>
+<text text-anchor="start" x="312.5484" y="-388.1" font-family="Times,serif" font-size="14.00" fill="#000000">Controller</text>
+<polyline fill="none" stroke="#000000" points="171.61,-379.9 511.031,-379.9 "/>
+<text text-anchor="start" x="244.1262" y="-363.3" font-family="Times,serif" font-size="14.00" fill="#000000">blueprint : Blueprint</text>
+<text text-anchor="start" x="244.1262" y="-346.5" font-family="Times,serif" font-size="14.00" fill="#000000">entityIDKey</text>
+<text text-anchor="start" x="244.1262" y="-329.7" font-family="Times,serif" font-size="14.00" fill="#000000">entityName : str</text>
+<text text-anchor="start" x="244.1262" y="-312.9" font-family="Times,serif" font-size="14.00" fill="#000000">repository : Type[BaseRepository]</text>
+<polyline fill="none" stroke="#000000" points="171.61,-304.7 511.031,-304.7 "/>
+<text text-anchor="start" x="179.61" y="-288.1" font-family="Times,serif" font-size="14.00" fill="#000000">create()</text>
+<text text-anchor="start" x="179.61" y="-271.3" font-family="Times,serif" font-size="14.00" fill="#000000">query()</text>
+<text text-anchor="start" x="179.61" y="-254.5" font-family="Times,serif" font-size="14.00" fill="#000000">register_entity(entityName: str, env: Literal['test', 'dev'])</text>
+<text text-anchor="start" x="179.61" y="-237.7" font-family="Times,serif" font-size="14.00" fill="#000000">register_routes(env: str)</text>
+<text text-anchor="start" x="179.61" y="-220.9" font-family="Times,serif" font-size="14.00" fill="#000000">update()</text>
+</g>
+<!-- backend.api.apis.DocumentFlowController -->
+<g id="node2" class="node">
+<title>backend.api.apis.DocumentFlowController</title>
+<polygon fill="none" stroke="#000000" points="0,-50.9 0,-125.3 160.641,-125.3 160.641,-50.9 0,-50.9"/>
+<text text-anchor="start" x="8" y="-108.7" font-family="Times,serif" font-size="14.00" fill="#000000">DocumentFlowController</text>
+<polyline fill="none" stroke="#000000" points="0,-100.5 160.641,-100.5 "/>
+<polyline fill="none" stroke="#000000" points="0,-75.7 160.641,-75.7 "/>
+<text text-anchor="start" x="13.2661" y="-59.1" font-family="Times,serif" font-size="14.00" fill="#000000">register_routes(env: str)</text>
+</g>
+<!-- backend.api.apis.DocumentFlowController&#45;&gt;backend.api.apis.Controller -->
+<g id="edge1" class="edge">
+<title>backend.api.apis.DocumentFlowController-&gt;backend.api.apis.Controller</title>
+<path fill="none" stroke="#000000" d="M116.6248,-125.5247C132.6756,-141.5706 152.0257,-160.2519 170.3205,-176.2 181.6999,-186.1197 193.7215,-196.1909 205.9031,-206.1215"/>
+<polygon fill="none" stroke="#000000" points="203.9536,-209.0466 213.9262,-212.624 208.3611,-203.6084 203.9536,-209.0466"/>
+</g>
+<!-- backend.api.apis.GoodsReceiptController -->
+<g id="node3" class="node">
+<title>backend.api.apis.GoodsReceiptController</title>
+<polygon fill="none" stroke="#000000" points="178.892,-50.9 178.892,-125.3 331.749,-125.3 331.749,-50.9 178.892,-50.9"/>
+<text text-anchor="start" x="186.892" y="-108.7" font-family="Times,serif" font-size="14.00" fill="#000000">GoodsReceiptController</text>
+<polyline fill="none" stroke="#000000" points="178.892,-100.5 331.749,-100.5 "/>
+<polyline fill="none" stroke="#000000" points="178.892,-75.7 331.749,-75.7 "/>
+<text text-anchor="start" x="233.9551" y="-59.1" font-family="Times,serif" font-size="14.00" fill="#000000">create()</text>
+</g>
+<!-- backend.api.apis.GoodsReceiptController&#45;&gt;backend.api.apis.Controller -->
+<g id="edge2" class="edge">
+<title>backend.api.apis.GoodsReceiptController-&gt;backend.api.apis.Controller</title>
+<path fill="none" stroke="#000000" d="M269.9092,-125.5218C278.305,-147.0579 289.3163,-175.3032 300.1702,-203.1447"/>
+<polygon fill="none" stroke="#000000" points="296.9478,-204.5151 303.841,-212.5608 303.4697,-201.9725 296.9478,-204.5151"/>
+</g>
+<!-- backend.api.apis.PurchaseOrderController -->
+<g id="node4" class="node">
+<title>backend.api.apis.PurchaseOrderController</title>
+<polygon fill="none" stroke="#000000" points="349.9614,-50.9 349.9614,-125.3 506.6796,-125.3 506.6796,-50.9 349.9614,-50.9"/>
+<text text-anchor="start" x="357.9614" y="-108.7" font-family="Times,serif" font-size="14.00" fill="#000000">PurchaseOrderController</text>
+<polyline fill="none" stroke="#000000" points="349.9614,-100.5 506.6796,-100.5 "/>
+<polyline fill="none" stroke="#000000" points="349.9614,-75.7 506.6796,-75.7 "/>
+<text text-anchor="start" x="406.9551" y="-59.1" font-family="Times,serif" font-size="14.00" fill="#000000">create()</text>
+</g>
+<!-- backend.api.apis.PurchaseOrderController&#45;&gt;backend.api.apis.Controller -->
+<g id="edge3" class="edge">
+<title>backend.api.apis.PurchaseOrderController-&gt;backend.api.apis.Controller</title>
+<path fill="none" stroke="#000000" d="M413.5621,-125.5218C405.0688,-147.0579 393.9294,-175.3032 382.9493,-203.1447"/>
+<polygon fill="none" stroke="#000000" points="379.6487,-201.974 379.2358,-212.5608 386.1606,-204.5422 379.6487,-201.974"/>
+</g>
+<!-- backend.api.apis.Response -->
+<g id="node5" class="node">
+<title>backend.api.apis.Response</title>
+<polygon fill="none" stroke="#000000" points="882.0704,-.5 882.0704,-175.7 1100.5706,-175.7 1100.5706,-.5 882.0704,-.5"/>
+<text text-anchor="start" x="964.493" y="-159.1" font-family="Times,serif" font-size="14.00" fill="#000000">Response</text>
+<polyline fill="none" stroke="#000000" points="882.0704,-150.9 1100.5706,-150.9 "/>
+<text text-anchor="start" x="934.1746" y="-134.3" font-family="Times,serif" font-size="14.00" fill="#000000">code : int</text>
+<text text-anchor="start" x="934.1746" y="-117.5" font-family="Times,serif" font-size="14.00" fill="#000000">data : ResponseData</text>
+<text text-anchor="start" x="934.1746" y="-100.7" font-family="Times,serif" font-size="14.00" fill="#000000">json</text>
+<text text-anchor="start" x="934.1746" y="-83.9" font-family="Times,serif" font-size="14.00" fill="#000000">message : str</text>
+<polyline fill="none" stroke="#000000" points="882.0704,-75.7 1100.5706,-75.7 "/>
+<text text-anchor="start" x="890.0704" y="-59.1" font-family="Times,serif" font-size="14.00" fill="#000000">create_success(data: ResponseData)</text>
+<text text-anchor="start" x="890.0704" y="-42.3" font-family="Times,serif" font-size="14.00" fill="#000000">not_found(entity: str)</text>
+<text text-anchor="start" x="890.0704" y="-25.5" font-family="Times,serif" font-size="14.00" fill="#000000">query_success(data: ResponseData)</text>
+<text text-anchor="start" x="890.0704" y="-8.7" font-family="Times,serif" font-size="14.00" fill="#000000">update_success()</text>
+</g>
+<!-- backend.api.apis.UserController -->
+<g id="node6" class="node">
+<title>backend.api.apis.UserController</title>
+<polygon fill="none" stroke="#000000" points="524.61,-17.3 524.61,-158.9 864.031,-158.9 864.031,-17.3 524.61,-17.3"/>
+<text text-anchor="start" x="652.3352" y="-142.3" font-family="Times,serif" font-size="14.00" fill="#000000">UserController</text>
+<polyline fill="none" stroke="#000000" points="524.61,-134.1 864.031,-134.1 "/>
+<polyline fill="none" stroke="#000000" points="524.61,-109.3 864.031,-109.3 "/>
+<text text-anchor="start" x="532.61" y="-92.7" font-family="Times,serif" font-size="14.00" fill="#000000">change_password()</text>
+<text text-anchor="start" x="532.61" y="-75.9" font-family="Times,serif" font-size="14.00" fill="#000000">login()</text>
+<text text-anchor="start" x="532.61" y="-59.1" font-family="Times,serif" font-size="14.00" fill="#000000">register()</text>
+<text text-anchor="start" x="532.61" y="-42.3" font-family="Times,serif" font-size="14.00" fill="#000000">register_entity(entityName: str, env: Literal['test', 'dev'])</text>
+<text text-anchor="start" x="532.61" y="-25.5" font-family="Times,serif" font-size="14.00" fill="#000000">register_routes(env: str)</text>
+</g>
+<!-- backend.api.apis.UserController&#45;&gt;backend.api.apis.Controller -->
+<g id="edge4" class="edge">
+<title>backend.api.apis.UserController-&gt;backend.api.apis.Controller</title>
+<path fill="none" stroke="#000000" d="M580.686,-159.1135C556.1498,-174.4469 529.7491,-190.9455 503.7577,-207.1883"/>
+<polygon fill="none" stroke="#000000" points="501.5876,-204.4171 494.9622,-212.6848 505.2973,-210.3533 501.5876,-204.4171"/>
+</g>
+</g>
+</svg>

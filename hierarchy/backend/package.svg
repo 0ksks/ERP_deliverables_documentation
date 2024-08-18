@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="471pt" height="332pt" viewBox="0.00 0.00 470.62 332.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 328)">
+<title>packages_backend</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-328 466.6249,-328 466.6249,4 -4,4"/>
+<!-- backend -->
+<g id="node1" class="node">
+<title>backend</title>
+<polygon fill="none" stroke="#000000" points="225.7942,-36 163.5046,-36 163.5046,0 225.7942,0 225.7942,-36"/>
+<text text-anchor="middle" x="194.6494" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">backend</text>
+</g>
+<!-- backend.app -->
+<g id="node4" class="node">
+<title>backend.app</title>
+<polygon fill="none" stroke="#000000" points="238.0085,-108 151.2903,-108 151.2903,-72 238.0085,-72 238.0085,-108"/>
+<text text-anchor="middle" x="194.6494" y="-85.8" font-family="Times,serif" font-size="14.00" fill="#000000">backend.app</text>
+</g>
+<!-- backend&#45;&gt;backend.app -->
+<g id="edge4" class="edge">
+<title>backend-&gt;backend.app</title>
+<path fill="none" stroke="#000000" d="M194.6494,-36.1686C194.6494,-43.869 194.6494,-53.0257 194.6494,-61.5834"/>
+<polygon fill="#000000" stroke="#000000" points="194.6494,-71.5867 190.1495,-61.5867 194.6494,-66.5867 194.6495,-61.5867 194.6495,-61.5867 194.6495,-61.5867 194.6494,-66.5867 199.1495,-61.5868 194.6494,-71.5867 194.6494,-71.5867"/>
+</g>
+<!-- backend.api -->
+<g id="node2" class="node">
+<title>backend.api</title>
+<polygon fill="none" stroke="#000000" points="96.3988,-252 12.9,-252 12.9,-216 96.3988,-216 96.3988,-252"/>
+<text text-anchor="middle" x="54.6494" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">backend.api</text>
+</g>
+<!-- backend.api.apis -->
+<g id="node3" class="node">
+<title>backend.api.apis</title>
+<polygon fill="none" stroke="#000000" points="109.4486,-324 -.1498,-324 -.1498,-288 109.4486,-288 109.4486,-324"/>
+<text text-anchor="middle" x="54.6494" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">backend.api.apis</text>
+</g>
+<!-- backend.api&#45;&gt;backend.api.apis -->
+<g id="edge1" class="edge">
+<title>backend.api-&gt;backend.api.apis</title>
+<path fill="none" stroke="#000000" d="M54.6494,-252.1686C54.6494,-259.869 54.6494,-269.0257 54.6494,-277.5834"/>
+<polygon fill="#000000" stroke="#000000" points="54.6494,-287.5867 50.1495,-277.5867 54.6494,-282.5867 54.6495,-277.5867 54.6495,-277.5867 54.6495,-277.5867 54.6494,-282.5867 59.1495,-277.5868 54.6494,-287.5867 54.6494,-287.5867"/>
+</g>
+<!-- backend.model -->
+<g id="node5" class="node">
+<title>backend.model</title>
+<polygon fill="none" stroke="#000000" points="245.2891,-180 144.0097,-180 144.0097,-144 245.2891,-144 245.2891,-180"/>
+<text text-anchor="middle" x="194.6494" y="-157.8" font-family="Times,serif" font-size="14.00" fill="#000000">backend.model</text>
+</g>
+<!-- backend.app&#45;&gt;backend.model -->
+<g id="edge2" class="edge">
+<title>backend.app-&gt;backend.model</title>
+<path fill="none" stroke="#000000" d="M194.6494,-108.1686C194.6494,-115.869 194.6494,-125.0257 194.6494,-133.5834"/>
+<polygon fill="#000000" stroke="#000000" points="194.6494,-143.5867 190.1495,-133.5867 194.6494,-138.5867 194.6495,-133.5867 194.6495,-133.5867 194.6495,-133.5867 194.6494,-138.5867 199.1495,-133.5868 194.6494,-143.5867 194.6494,-143.5867"/>
+</g>
+<!-- backend.model&#45;&gt;backend.api -->
+<g id="edge3" class="edge">
+<title>backend.model-&gt;backend.api</title>
+<path fill="none" stroke="#000000" d="M159.3215,-180.1686C141.0001,-189.5911 118.4392,-201.1938 98.9599,-211.2117"/>
+<polygon fill="#000000" stroke="#000000" points="89.966,-215.8372 96.8008,-207.2618 94.4125,-213.5504 98.8589,-211.2636 98.8589,-211.2636 98.8589,-211.2636 94.4125,-213.5504 100.917,-215.2654 89.966,-215.8372 89.966,-215.8372"/>
+</g>
+<!-- backend.model.DBconfig -->
+<g id="node6" class="node">
+<title>backend.model.DBconfig</title>
+<polygon fill="none" stroke="#000000" points="274.4981,-252 114.8007,-252 114.8007,-216 274.4981,-216 274.4981,-252"/>
+<text text-anchor="middle" x="194.6494" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">backend.model.DBconfig</text>
+</g>
+<!-- backend.model&#45;&gt;backend.model.DBconfig -->
+<g id="edge5" class="edge">
+<title>backend.model-&gt;backend.model.DBconfig</title>
+<path fill="none" stroke="#000000" d="M194.6494,-180.1686C194.6494,-187.869 194.6494,-197.0257 194.6494,-205.5834"/>
+<polygon fill="#000000" stroke="#000000" points="194.6494,-215.5867 190.1495,-205.5867 194.6494,-210.5867 194.6495,-205.5867 194.6495,-205.5867 194.6495,-205.5867 194.6494,-210.5867 199.1495,-205.5868 194.6494,-215.5867 194.6494,-215.5867"/>
+</g>
+<!-- backend.model.repositories -->
+<g id="node8" class="node">
+<title>backend.model.repositories</title>
+<polygon fill="none" stroke="#000000" points="462.6004,-252 292.6984,-252 292.6984,-216 462.6004,-216 462.6004,-252"/>
+<text text-anchor="middle" x="377.6494" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">backend.model.repositories</text>
+</g>
+<!-- backend.model&#45;&gt;backend.model.repositories -->
+<g id="edge6" class="edge">
+<title>backend.model-&gt;backend.model.repositories</title>
+<path fill="none" stroke="#000000" d="M240.828,-180.1686C265.6295,-189.9266 296.3744,-202.023 322.4337,-212.2758"/>
+<polygon fill="#000000" stroke="#000000" points="331.8028,-215.962 320.8496,-216.4883 327.15,-214.1314 322.4972,-212.3007 322.4972,-212.3007 322.4972,-212.3007 327.15,-214.1314 324.1448,-208.1132 331.8028,-215.962 331.8028,-215.962"/>
+</g>
+<!-- backend.model.models -->
+<g id="node7" class="node">
+<title>backend.model.models</title>
+<polygon fill="none" stroke="#000000" points="450.2294,-324 305.0694,-324 305.0694,-288 450.2294,-288 450.2294,-324"/>
+<text text-anchor="middle" x="377.6494" y="-301.8" font-family="Times,serif" font-size="14.00" fill="#000000">backend.model.models</text>
+</g>
+<!-- backend.model.repositories&#45;&gt;backend.model.models -->
+<g id="edge7" class="edge">
+<title>backend.model.repositories-&gt;backend.model.models</title>
+<path fill="none" stroke="#000000" d="M377.6494,-252.1686C377.6494,-259.869 377.6494,-269.0257 377.6494,-277.5834"/>
+<polygon fill="#000000" stroke="#000000" points="377.6494,-287.5867 373.1495,-277.5867 377.6494,-282.5867 377.6495,-277.5867 377.6495,-277.5867 377.6495,-277.5867 377.6494,-282.5867 382.1495,-277.5868 377.6494,-287.5867 377.6494,-287.5867"/>
+</g>
+</g>
+</svg>
